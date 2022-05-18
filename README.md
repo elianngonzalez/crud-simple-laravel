@@ -5,5 +5,5 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 </p>
 
-## About Laravel
+## CRUD SIMPLE CON LARAVEL
 
