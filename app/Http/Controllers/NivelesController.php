@@ -64,6 +64,8 @@ class NivelesController extends Controller
      * @param  \App\Models\Nivel  $nivel
      * @return \Illuminate\Http\Response
      */
+    
+    //llama el formulario para editar con los datos del objeto
     public function edit(Nivel $nivel)
     {
         return view("niveles.edit", ["nivel"=>$nivel]);
