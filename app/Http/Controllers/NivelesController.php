@@ -39,6 +39,7 @@ class NivelesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    //funcion que crea y guarda un objeto
     public function store(Request $request)
     {
         $nivel = new Nivel($request->input());
@@ -54,7 +55,7 @@ class NivelesController extends Controller
      */
     public function show(Nivel $nivel)
     {
-        //
+        //deveria mostrar un objeto individualmente 
     }
 
     /**
