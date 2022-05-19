@@ -27,6 +27,7 @@ class NivelesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    //funcion que retorna el formulario para crear un objeto
     public function create()
     {
         return view("niveles.create");
