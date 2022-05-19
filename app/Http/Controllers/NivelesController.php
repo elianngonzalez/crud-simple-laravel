@@ -14,6 +14,7 @@ class NivelesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    //funcion que retorna la pagina principal
     public function index()
     {
         //paginate
